@@ -1,21 +1,21 @@
-# Project1
+Project1
+# GenericPrint 
 
 ## 📌 Description
-This Java program reads input from a text file and performs basic text compression tasks. It tokenizes words, handles subword merges, and reports efficiency improvements. The program demonstrates arrays, iteration, and file I/O in Java.
+This Java program demonstrates the use of **generics** by implementing a `GenericPrint<T>` class that can handle arrays of different data types. It provides a method to print array elements of any type, showcasing flexibility and reusability in Java programming.
 
 ## 🚀 Features
-- Reads input text data from file.
-- Tokenizes words for analysis.
-- Demonstrates array handling and iteration.
-- Reports compression trade-offs.
+- Uses Java Generics (`<T>`) to work with multiple data types.
+- Prints array elements separated by spaces.
+- Demonstrates functionality with **Integer**, **Double**, and **String** arrays.
+- Promotes **code reusability** and **type safety**.
 
 ## 🛠️ Technologies Used
-- Java (Core)
-- File I/O
-- Arrays & Loops
+- Java (Generics, Arrays, Loops)
+- Console I/O
 
 ## ▶️ How to Run
 1. Navigate to the `src` folder.
 2. Compile the program:
    ```bash
-   javac Project1.java
+   javac GenericPrint.java
